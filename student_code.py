@@ -31,8 +31,8 @@ class KnowledgeBase(object):
                     return
 
             self.facts.append(fact)
+            fact.asserted = True
 
-        
     def kb_ask(self, fact):
         """Ask if a fact is in the KB
 

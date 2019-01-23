@@ -8,7 +8,7 @@ fact: (inst Sarorah Sorceress)
 fact: (isa Sorceress Wizard)
 
 fact: (inst Nosliw Dragon)
-
+fact: (inst Nosliw Dragon)
 
 rule: ((inst ?x ?y) (isa ?y ?z)) -> (inst ?x ?z)
 rule: ((isa ?x ?y) (isa ?y ?z)) -> (isa ?x ?z)
